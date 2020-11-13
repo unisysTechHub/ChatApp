@@ -1,0 +1,22 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateMessage($id: ID, $name: String, $message: String) {
+  onCreateMessage(id: $id, name: $name, message: $message) {
+    id
+    name
+    message
+  }
+}
+subscription OnUpdateMessage($id: ID, $name: String, $message: String) {
+  onUpdateMessage(id: $id, name: $name, message: $message) {
+    id
+    name
+    message
+  }
+}
+subscription OnDeleteMessage($id: ID, $name: String, $message: String) {
+  onDeleteMessage(id: $id, name: $name, message: $message) {
+    id
+    name
+    message
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "awsandroidauthdev9e8a6863": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
